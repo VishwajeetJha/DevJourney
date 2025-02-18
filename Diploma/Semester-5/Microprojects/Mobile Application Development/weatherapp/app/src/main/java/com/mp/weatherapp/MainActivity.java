@@ -181,5 +181,3 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
-
-//pgmrcti@gmail.com

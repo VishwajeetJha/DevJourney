@@ -31,7 +31,7 @@ $pdf->setLanguageArray($l);
 $pdf->AddPage();
 $pdf->SetFont('helvetica', '', 12);
 
-$employeeName = 'vishwajeet';
+$employeeName = 'some name';
 $employeeID = 'EMP302';
 $basicSalary = 15000;
 $allowance = 6000;

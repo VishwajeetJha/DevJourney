@@ -1,9 +1,9 @@
 <?php
 // Associative array
 $associativeArray = array(
-    "name" => "vishwajeet",
+    "name" => "some name",
     "age" => 30,
-    "city" => "Ahemedabad"
+    "city" => "some city"
 );
 
 // Convert associative array to JSON string

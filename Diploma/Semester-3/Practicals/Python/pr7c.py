@@ -2,7 +2,7 @@
 
 # Create a Dictionary
 dict={0:'308',1:'302',2:'295',49:'000'}
-dict2={3:'Yashraj',4:'Vishwajeet',5:'Kalp'}
+dict2={3:'and yes, another name',4:'some name',5:'some other name'}
 # Print Dict Items
 print(dict)
 # Add Remove Key Value pair in/from dict

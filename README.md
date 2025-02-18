@@ -7,7 +7,9 @@ Here, I store all my codes starting from **Semester 3** of my **Diploma in Compu
 This repository contains assignments, projects, and practicals across various subjects.
 
 I have uploaded almost everything here, if you wanna query me for something then find me on my socials :)
-I'll be happy to help you out
+I'll be happy to help you out.
+
+Most of the work is mine with, not very small, but a significant portion of work belonging to my friends!
 
 
 ## 📂 Repository Structure  

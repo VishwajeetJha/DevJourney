@@ -1,6 +1,6 @@
 # Security Policy
 
-## SAbout Versions
+## About Versions
 
 For all Semester 5 projects, in Machine Learning and Artificial Intelligence certain Python versions and dependency versions are use.
 All of which is mentioned in requirements.txt and pythonverion files.

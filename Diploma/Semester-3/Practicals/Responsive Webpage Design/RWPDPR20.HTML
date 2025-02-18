@@ -1,0 +1,60 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>News Story Page</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target="#navbar" data-offset="50">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+    <a class="navbar-brand" href="#">News Story</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#section1">Section 1</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section2">Section 2</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3">Section 3</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container mt-4">
+    <h1 id="section1">Section 1</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non diam nec ligula fringilla faucibus. Ut in quam
+      neque. Nullam ut libero id risus suscipit vehicula. Proin malesuada felis a justo sodales, a tincidunt purus
+      fermentum. Integer at mi eu arcu suscipit cursus nec non odio.</p>
+    <h2 id="section2">Section 2</h2>
+    <p>Ut convallis convallis eros, id commodo ligula facilisis sit amet. Quisque malesuada ornare ipsum, eu mollis
+      odio sagittis nec. Nullam sed enim diam. Donec sit amet quam ut metus iaculis adipiscing eget quis eros.</p>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+      aria-expanded="false" aria-controls="collapseExample">
+      Toggle Collapsible
+    </button>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body">
+        This is a collapsible section.
+      </div>
+    </div>
+    <h3 id="section3">Section 3</h3>
+    <img src="https://via.placeholder.com/150" alt="Image 1" data-toggle="tooltip" title="Image 1 Description">
+    <img src="https://via.placeholder.com/150" alt="Image 2" data-toggle="tooltip" title="Image 2 Description">
+    <img src="https://via.placeholder.com/150" alt="Image 3" data-toggle="tooltip" title="Image 3 Description">
+    <img src="https://via.placeholder.com/150" alt="Image 4" data-toggle="tooltip" title="Image 4 Description">
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+IF fever AND cough AND sore_throat THEN 0.9 Flu
+IF fever AND fatigue AND headache AND chills THEN 0.8 Viral_Infection
+IF chest_pain AND cough THEN 0.7 Pneumonia
+IF headache AND fatigue THEN 0.5 Migraine
+IF cough AND sore_throat THEN 0.6 Common_Cold
+IF fever AND sweats THEN 0.7 Tuberculosis
+IF chills AND sweats THEN 0.6 Malaria
+IF NOT fever AND NOT cough AND NOT sore_throat AND NOT fatigue THEN 0.4 Healthy
+DEFAULT 0.1 Unknown_Condition

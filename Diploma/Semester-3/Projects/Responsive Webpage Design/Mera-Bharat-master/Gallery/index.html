@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style2.css">
+    
+    <style>
+        .media-rounded {
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.5s;
+            aspect-ratio: 1/1;
+        }
+
+        .media-rounded:hover {
+            transform: scale(1.1);
+            aspect-ratio: unset; 
+        }
+
+        .media-rounded img {
+            width: 100%;
+            height: 100%;
+			padding: 25px;
+            object-fit: cover; 
+            display: block;
+        }
+
+        .media-right {
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.5s;
+            aspect-ratio: 1/1; 
+        }
+
+        .media-right:hover {
+            transform: scale(1.1);
+            aspect-ratio: unset; 
+        }
+
+        .media-right img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; 
+            display: block;
+        }
+    </style>
+    <title>Gallery</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg custom-header-color">
+            <div class="logo"><h1 style="color:bisque;">Mera Bharat</h1></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="menu navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="file:///C:/Users/91771/Downloads/Mera-Bharat-master/Home/index.html">HOME</a>
+                    <a class="nav-item nav-link" href="#">GALLERY</a>
+                    <a class="nav-item nav-link" href="file:///C:/Users/91771/Downloads/Mera-Bharat-master/About/index.html">ABOUT</a>
+                    <a class="nav-item nav-link" href="file:///C:/Users/91771/Downloads/Mera-Bharat-master/Contact/index.html">CONTACT</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid" style="background: url('bg.jpeg'); background-color: antiquewhite; background-size:cover;">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="media-rounded">
+                    <img src="tajMahal.jpeg" alt="tajmahel">
+                    <div class="media-body">
+                        <h5 class="mt-0">TajMahel, Agra</h5>
+                    </div>
+                </div>
+                <div class="media-rounded">
+                    <img src="indiaGate.jpeg" alt="Ig">
+                    <div class="media-body">
+                        <h5 class="mt-0">India Gate, Delhi</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="media-rounded">
+                    <img src="hawaMahal.jpeg" alt="tajmahel">
+                    <div class="media-body">
+                        <h5 class="mt-0">Hawa Mahel, Jaipur</h5>
+                    </div>
+                </div>
+                <div class="media-rounded">
+                    <img src="redFort.jpeg" alt="Ig">
+                    <div class="media-body">
+                        <h5 class="mt-0">Red Fort, Delhi</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="media-right">
+                    <img src="kutubMinar.jpg" alt="tajmahel">
+                    <div class="media-body">
+                        <h5 class="mt-0">Kutub minar, Hydarbad</h5>
+                    </div>
+                </div>
+                <div class="media-rounded">
+                    <img src="Somanath.jpg" alt="Ig">
+                    <div class="media-body">
+                        <h5 class="mt-0">Somnath temple, Gujarat</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="media-rounded">
+                    <img src="jaali.jpg" alt="tajmahel">
+                    <div class="media-body">
+                        <h5 class="mt-0">Siddi Saiyad ni Jaali, Gujarat</h5>
+                    </div>
+                </div>
+                <div class="media-rounded">
+                    <img src="ellora.jpg" alt="Ig">
+                    <div class="media-body">
+                        <h5 class="mt-0">Ellora caves, Maharastra </h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

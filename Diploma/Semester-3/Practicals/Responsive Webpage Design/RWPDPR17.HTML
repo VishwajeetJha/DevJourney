@@ -1,0 +1,55 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Service Provider Information</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-4">
+  <h2>Service Provider Information</h2>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">Service Providers</div>
+        <div class="panel-body">
+          <ul class="list-group">
+            <li class="list-group-item">Yashraj</li>
+            <li class="list-group-item">Krutarth</li>
+            <li class="list-group-item">Kalp</li>
+            <li class="list-group-item">Vishwajeet</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="alert alert-success alert-dismissible fade show mt-4" role="alert">
+        Message displayed after alert is closed.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        Error message here.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        Warning message here.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+document.querySelectorAll('.alert').forEach(function(alert) {
+  alert.addEventListener('closed.bs.alert', function () {
+    alert.insertAdjacentHTML('afterend', '<div class="alert alert-info mt-2">Message displayed after alert is closed.</div>');
+  });
+});
+</script>
+</body>
+</html>

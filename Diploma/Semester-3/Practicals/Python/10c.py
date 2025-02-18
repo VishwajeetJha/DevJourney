@@ -1,0 +1,7 @@
+input_date = input("Enter the date in DD-MM-YYYY format: ")
+day_str, month_str, year_str = input_date.split('-')
+day = int(day_str)
+month = int(month_str)
+year = int(year_str)
+output_date = "{:02d}-{:02d}-{:02d}".format(month, day, year)
+print("Date in MM-DD-YYYY format:", output_date)

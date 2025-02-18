@@ -1,0 +1,3 @@
+This is a string
+Writing it to textfile.txt
+This is a Test line 3

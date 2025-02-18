@@ -1,0 +1,55 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smooth Page Transitions</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .page {
+      display: none;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+    .active {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<div id="homepage" class="page active">
+  <h1>Welcome to the Homepage</h1>
+  <p>This is the homepage content. You can add any introductory text, images, or other elements here to welcome visitors to your website.</p>
+  <a href="#about" class="nav-link">About</a>
+  <a href="#contact" class="nav-link">Contact Us</a>
+</div>
+<div id="about" class="page">
+  <h1>About Us</h1>
+  <p>This is the about page content. You can provide information about your company, team, or organization here. Feel free to add details, images, and any other relevant content.</p>
+  <a href="#homepage" class="nav-link">Home</a>
+  <a href="#contact" class="nav-link">Contact Us</a>
+</div>
+<div id="contact" class="page">
+  <h1>Contact Us</h1>
+  <p>This is the contact us page content. You can include contact information, a contact form, or any other details that make it easy for visitors to get in touch with you.</p>
+  <a href="#homepage" class="nav-link">Home</a>
+  <a href="#about" class="nav-link">About</a>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".nav-link").on("click", function (event) {
+      event.preventDefault();
+      var targetPage = $($(this).attr("href"));
+      $(".page.active").fadeOut("slow", function() {
+        $(this).removeClass("active");
+        targetPage.fadeIn("slow").addClass("active");
+      });
+    });
+  });
+</script>
+</body>
+</html>

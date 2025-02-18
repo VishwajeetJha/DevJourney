@@ -1,0 +1,9 @@
+To get SourceName and DestinationName:-
+select t.TrainID,s.StationName"Src",d.StationName"Dest" from Trains t,Stations s,Stations d where t.SourceStation=s.StationID and t.DestinationStation=d.StationID;
+
+To get source+destination and arrival departure timings
+select t.TrainID,s.StationName"Source Station",t.DepartureTime"Departure Time",d.StationName"Destination Station",t.ArrivalTime"Arrival Time" from Trains t,Stations s,Stations d where t.SourceStation=s.StationID and t.DestinationStation=d.StationID;
+
+To Get above:-
+select TrainID, TrainName, Arrival, Source, Departure, Destination from TrainsToFro;
+Column Sizes defined:-^

@@ -2,7 +2,9 @@ Contents of this folder:
 1. Practicals:   
      -Data Structures and Algorithms in C  
      -Basic Python  
-     -Relational Database Management System using Oracle SQL  
+     -Relational Database Management System using Oracle SQL     
+     -Responsive Webpage Design using Bootstrap
+   
 3. Projects:  
      -DSA: Bank Management System Project  
      -Python: Bus Management System Project  

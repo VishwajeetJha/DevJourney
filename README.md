@@ -44,7 +44,7 @@ This is my personal learning repository, but if you have suggestions, feel free 
 ## 🔗 Connect with Me  
 - 📧 Email: [Vishwajeet Jha @Vish](mailto:victorygamerz4@gmail.com)
 - 🐙 GitHub: [VishwajeetJha](https://github.com/VishwajeetJha)  
-- 💼 LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/vishftw)
+- 💼 LinkedIn: [Vishwajeet Jha](https://www.linkedin.com/in/vishftw)
   
 - [![Instagram Badge](https://img.shields.io/badge/Instagram-FF0069?logo=instagram&logoColor=fff&style=flat-square)](https://instagram.com/heartwastaken)
 

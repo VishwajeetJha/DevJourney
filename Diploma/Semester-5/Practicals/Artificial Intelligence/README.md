@@ -1,69 +1,70 @@
 # 📌 AI Practicals List
 
-## 📂 Practical 1 - NumPy Basics
-- `PR1A.py`  : Matrix Addition using NumPy  
-- `PR1B.py`  : Mean and Standard Deviation Calculation  
-- `PR1C.py`  : Dot Product of Two Arrays  
+## 🧮 NumPy Basics  
+- `PR1A.py`  : 🔢 Matrix Addition using NumPy  
+- `PR1B.py`  : 📊 Mean and Standard Deviation Calculation  
+- `PR1C.py`  : ⚡ Dot Product of Two Arrays  
 
-## 📂 Practical 2 - Machine Learning Basics
-- `PR2A.py`  : House Price Prediction using Linear Regression  
-- `PR2B.py`  : Decision Tree Classification on Iris Dataset  
-- `PR2C.py`  : k-Means Clustering of Students by CGPA  
+## 📈 Machine Learning Basics  
+- `PR2A.py`  : 🏠 House Price Prediction using Linear Regression  
+- `PR2B.py`  : 🌿 Decision Tree Classification on Iris Dataset  
+- `PR2C.py`  : 🎓 k-Means Clustering of Students by CGPA  
 
-## 📂 Practical 3 - Data Handling with Pandas
-- `PR3A.py`  : Summary Statistics of a Dataset using Pandas  
-- `PR3B.py`  : Data Manipulation and Filtering in Pandas  
-- `PR3C.py`  : Data Visualization using Matplotlib and Pandas  
+## 📊 Data Handling with Pandas  
+- `PR3A.py`  : 📋 Summary Statistics of a Dataset using Pandas  
+- `PR3B.py`  : ✂️ Data Manipulation and Filtering in Pandas  
+- `PR3C.py`  : 📉 Data Visualization using Matplotlib and Pandas  
 
-## 📂 Practical 4 - Rule-Based Systems
-- `PR4A.py`  : Implement Rule-Based System with Text File  
-- `PR4B.py`  : Rule-Based System with Input Validation  
-- `PR4C.py`  : Enhanced Rule-Based System with Debugging Features  
+## 📜 Rule-Based Systems  
+- `PR4A.py`  : ⚖️ Implement Rule-Based System with Text File  
+- `PR4B.py`  : ✅ Rule-Based System with Input Validation  
+- `PR4C.py`  : 🕵️‍♂️ Enhanced Rule-Based System with Debugging Features  
 
-## 📂 Practical 5 - Data Handling with Pandas
-- `PR5A.py`  : Read Data from CSV using Pandas  
-- `PR5B.py`  : Data Manipulation and Filtering in Pandas  
-- `PR5C.py`  : Data Visualization using Matplotlib and Pandas  
+## 📊 Data Handling with Pandas  
+- `PR5A.py`  : 🗂️ Read Data from CSV using Pandas  
+- `PR5B.py`  : ✂️ Data Manipulation and Filtering in Pandas  
+- `PR5C.py`  : 📊 Data Visualization using Matplotlib and Pandas  
 
-## 📂 Practical 6 - Calendar Generation
-- `PR6A.py`  : Generate Full Year Calendar  
-- `PR6B.py`  : Generate Calendar for Given Month & Year  
-- `PR6C.py`  : Interactive Calendar with Validations  
+## 📅 Calendar Generation  
+- `PR6A.py`  : 📆 Generate Full Year Calendar  
+- `PR6B.py`  : 🗓️ Generate Calendar for Given Month & Year  
+- `PR6C.py`  : 🔍 Interactive Calendar with Validations  
 
-## 📂 Practical 7 - Graph Search Algorithms
-- `PR7A.py`  : Implement Breadth-First Search (BFS) Traversal  
-- `PR7B.py`  : Implement Depth-First Search (DFS) Traversal  
+## 🔍 Graph Search Algorithms  
+- `PR7A.py`  : 🔗 Implement Breadth-First Search (BFS) Traversal  
+- `PR7B.py`  : 🌐 Implement Depth-First Search (DFS) Traversal  
 
-## 📂 Practical 8 - Game Development
-- `PR8A.py`  : Create a Basic Tic-Tac-Toe Game  
-- `PR8B.py`  : Tic-Tac-Toe Game with Player Symbol Selection  
-- `PR8C.py`  : Enhanced Tic-Tac-Toe with Input Validation and AI Moves  
+## 🎮 Game Development  
+- `PR8A.py`  : ❌⭕ Create a Basic Tic-Tac-Toe Game  
+- `PR8B.py`  : 🎭 Tic-Tac-Toe Game with Player Symbol Selection  
+- `PR8C.py`  : 🧠 Enhanced Tic-Tac-Toe with Input Validation and AI Moves  
 
-## 📂 Practical 9 - NumPy Mathematical Operations
-- `PR9A.py`  : Statistical Operations using NumPy  
-- `PR9B.py`  : Basic Statistical Functions in NumPy  
-- `PR9C.py`  : Matrix Multiplication and Addition  
-- `PR9D.py`  : Trigonometric Operations using NumPy  
+## 🧮 NumPy Mathematical Operations  
+- `PR9A.py`  : 📊 Statistical Operations using NumPy  
+- `PR9B.py`  : 🔢 Basic Statistical Functions in NumPy  
+- `PR9C.py`  : ➕ Matrix Multiplication and Addition  
+- `PR9D.py`  : 📐 Trigonometric Operations using NumPy  
 
-## 📂 Practical 10 - Data Cleaning
-- `PR10A.py`  : Identify Missing Values from CSV File  
-- `PR10B.py`  : Handle Noisy Data in Dataset  
+## 🧼 Data Cleaning  
+- `PR10A.py`  : 🔍 Identify Missing Values from CSV File  
+- `PR10B.py`  : 🛠️ Handle Noisy Data in Dataset  
 
-## 📂 Practical 11 - Sentiment Analysis
-- `PR11A.py`  : Detect Noisy Values in Age Dataset  
-- `PR11B.py`  : Sentiment Analysis on Movie Reviews using Naive Bayes  
-- `PR11C.py`  : Sentiment Classification with Cross-Validation  
+## 🎭 Sentiment Analysis  
+- `PR11A.py`  : 🚨 Detect Noisy Values in Age Dataset  
+- `PR11B.py`  : 📝 Sentiment Analysis on Movie Reviews using Naive Bayes  
+- `PR11C.py`  : 🔄 Sentiment Classification with Cross-Validation  
 
-## 📂 Practical 12 - Chatbots
-- `PR12A.py`  : Implement a Simple Chatbot  
-- `PR12B.py`  : Chatbot with Predefined Responses  
-- `PR12C.py`  : Context-Aware Chatbot with User Input Tracking  
+## 💬 Chatbots  
+- `PR12A.py`  : 🤖 Implement a Simple Chatbot  
+- `PR12B.py`  : 🎭 Chatbot with Predefined Responses  
+- `PR12C.py`  : 🧠 Context-Aware Chatbot with User Input Tracking  
 
-## 📂 Practical 13 - Text Processing  
-- `PR13.py`  : Remove Stop Words from a Text File using NLTK  
+## ✂️ Text Processing  
+- `PR13.py`  : 🔍 Remove Stop Words from a Text File using NLTK  
 
-## 📂 Practical 14 - Text Classification  
-- `PR14.py`  : Perform Text Classification using NLTK  
+## 📖 Text Classification  
+- `PR14.py`  : 🎯 Perform Text Classification using NLTK  
 
 ## 📂 Miscellaneous   
-- `temp.py`  : Implements movie review sentiment analysis using both NLTK's Naive Bayes classifier and Scikit-learn's Multinomial Naive Bayes classifier with optional cross-validation  
+- `temp.py`  : 🎥 Implements movie review sentiment analysis using both NLTK's Naive Bayes classifier and Scikit-learn's Multinomial Naive Bayes classifier with optional cross-validation  
+

@@ -1,7 +1,5 @@
-# 📌 SQL Practicals  
-# NOTE: Useless without actual table queries, which I've lost :3
-
-## 📂 Practicals List  
+# 📌 SQL Practicals List  
+## NOTE: Useless without actual table queries, which I've lost :3
 
 ### 🏫 **Basic SQL Operations**  
 - `pr15a.sql`  : Student Information Output with User Input  

@@ -1,14 +1,12 @@
-# 📌 Python Scripting Practicals (4330701)  
+# 📌 Python Scripting Practicals List 
 
-## 📂 Practicals List  
-
-### 🛠️ **Environment Setup & Basic Code**  
+## 🛠️ **Environment Setup & Basic Code**  
 - `1.py`   : hello world :)
 
-### 📝 **Input & Output**  
+## 📝 **Input & Output**  
 - `2.py`   : Read and display user details  
 
-### 🔢 **Variables, Operators & Expressions**  
+## 🔢 **Variables, Operators & Expressions**  
 - `3a.py`  : Convert temperature from Celsius to Fahrenheit  
 - `3b.py`  : Compute the slope of a line between two points  
 - `3c.py`  : Calculate simple and compound interest  
@@ -18,14 +16,14 @@
 - `3g.py`  : Compute the real roots of a quadratic equation (math library)  
 - `3h.py`  : Compute the length of a ladder using height & angle (math library)  
 
-### 🏛️ **Decision Making Structures**  
+## 🏛️ **Decision Making Structures**  
 - `4a.py`  : Determine if a year is a leap year  
 - `4b.py`  : Calculate total weekly wages with overtime pay  
 - `4c.py`  : Compute BMI and classify health status  
 - `4d.py`  : Assign student grades based on marks  
 - `a3.1.py` : Grade Calculation based on Scores  
 
-### 🔁 **Loops**  
+## 🔁 **Loops**  
 - `5a.py`  : Compute the average of `n` numbers  
 - `5b.py`  : Generate all combinations of picking two numbers from 10  
 - `5c.py`  : Print patterns (stars & numbers)  
@@ -33,7 +31,7 @@
 - `5e.py`  : Sum of a mathematical series  
 - `5f.py`  : Find perfect numbers below 10,000  
 
-### 📋 **Lists & Collections**  
+## 📋 **Lists & Collections**  
 - `6a.py`  : Create, Add, Remove, Sort, Reverse elements in a list  
 - `6b.py`  : Count positives, negatives, zeros, odd, even numbers & compute average  
 - `6c.py`  : Count digit occurrences in a string  
@@ -43,14 +41,14 @@
 - `a3.3.py` : Set Operations (Union, Difference, Intersection, Symmetric Difference)  
 - `a3.4.py` : Extracting Distinct Numbers from User Input  
 
-### 📦 **Tuples, Sets & Dictionaries**  
+## 📦 **Tuples, Sets & Dictionaries**  
 - `7a.py`  : Create, Convert, and Modify Tuples  
 - `7b.py`  : Perform operations on Sets (Union, Intersection, etc.)  
 - `7c.py`  : Perform operations on Dictionaries (Add, Remove, Iterate, Merge)  
 - `7d.py`  : Find days with an average temperature between 40-50°F  
 - `7e.py`  : Quiz game to guess the capital of a state (using Dictionaries)  
 
-### 📌 **Functions**  
+## 📌 **Functions**  
 - `8a.py`  : Shuffle elements in a list  
 - `8b.py`  : Remove duplicates from a list  
 - `8c.py`  : Generate Fibonacci sequence using recursion  
@@ -63,7 +61,7 @@
 - `PrA4.5.py` : Permutation and combination calculation using an imported module  
 - `PrA4.6.py` : Plotting different types of graphs using Matplotlib  
 
-### 📦 **Modules**  
+## 📦 **Modules**  
 - `9a.py`  : Compute Mean & Standard Deviation  
 - `9b.py`  : Implement the Scissors-Rock-Paper game  
 - `9c.py`  : Print all Sundays in a given year  
@@ -73,7 +71,7 @@
 - `factorial_module.py` : Factorial, permutation, and combination calculations  
 - `math_operation.py` : Basic math operations  
 
-### 🔠 **String Processing**  
+## 🔠 **String Processing**  
 - `10a.py` : Check if a string is a palindrome  
 - `10b.py` : Count vowels & consonants in a string  
 - `10c.py` : Convert date format (DD/MM/YYYY → MM-DD-YYYY)  
@@ -81,7 +79,7 @@
 - `10e.py` : Convert RGB hex color to decimal values  
 - `10f.py` : Compute the numeric value of a name (A=1, B=2, … Z=26)  
 
-### 📂 **File Handling**  
+## 📂 **File Handling**  
 - `11a.py` : Perform file operations (Create, Read, Write, Count words & lines)  
 - `11b.py` : Count occurrences of alphabets in a text file  
 - `11c.py` : Extract numbers from a text file  
@@ -93,7 +91,7 @@
 - `PrA53.py` : File reading and word/character counting  
 - `PrA54.py` : String formatting and text justification examples  
 
-### 🖥️ **Miscellaneous**  
+## 🖥️ **Miscellaneous**  
 - `basicgui.py` : Basic GUI creation with Tkinter  
 - `n1.py` : Fibonacci series generation  
 - `n2.py` : Sum of series `1 + 1/2 + 1/3 + ... + 1/n`  

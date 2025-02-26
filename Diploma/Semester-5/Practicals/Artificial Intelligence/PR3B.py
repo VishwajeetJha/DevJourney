@@ -2,7 +2,7 @@ import pandas as pd
 
 # Example: Create a DataFrame manually or load from a CSV
 data = {
-    'Name': ['dev', 'shreyas', 'yashraj', 'kavan', 'vihaan'],
+    'Name': ['name1', 'name2', 'another name', 'so many names', 'HOW MANY-'],
     'Age': [17, 17, 18, 18, 19],
     'Score': [85, 90, 78, 88, 95]
 }

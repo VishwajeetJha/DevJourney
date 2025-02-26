@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Sample Employee Data
 employee_data = {
-    'Employee Name': ['dev', 'vihaan', 'milan', 'kavan', 'shreyas'],
+    'Employee Name': ['name1', 'name2', 'another name', 'so many names', 'HOW MANY-'],
     'Age': [28, 34, 40, 22, 30],
     'Salary': [60000, 48000, 55000, 45000, 67000],
     'Years of Experience': [5, 12, 15, 3, 10]

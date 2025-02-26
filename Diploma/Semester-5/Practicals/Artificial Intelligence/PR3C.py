@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 # Sample data for demonstration
 data = {
-    'Name': ['dev', 'shreyas', 'yashraj', 'kavan', 'vihaan'],
+    'Name': ['name1', 'name2', 'another name', 'so many names', 'HOW MANY-'],
     'Age': [17, 17, 18, 18, 19],
     'Score': [88, 90, 88, 95, 85]
 }

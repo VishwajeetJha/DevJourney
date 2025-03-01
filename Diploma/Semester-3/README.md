@@ -1,11 +1,13 @@
-Contents of this folder:
-1. Practicals:   
-     -Data Structures and Algorithms in C  
-     -Basic Python  
-     -Relational Database Management System using Oracle SQL     
-     -Responsive Webpage Design using Bootstrap
-   
-3. Projects:  
-     -DSA: Bank Management System Project  
-     -Python: Bus Management System Project  
-     -RBDMS: Railway Management System Project  
+# 📂 Folder Contents  
+
+## 📘 Practicals  
+- 💻 **Data Structures and Algorithms in C**  
+- 🐍 **Basic Python**  
+- 🗄️ **Relational Database Management System using Oracle SQL**  
+- 🌐 **Responsive Webpage Design using Bootstrap**  
+
+## 🚀 Projects  
+- 🏦 **DSA** : Bank Management System Project  
+- 🚌 **Python** : Bus Management System Project  
+- 🚆 **RDBMS** : Railway Management System Project
+- 🎨 **RWPD** : Mera Bharat Tourism Landing page (all credits: [Harshit Gupra](https://github.com/HarshitGupta865/))     

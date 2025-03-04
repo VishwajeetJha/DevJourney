@@ -39,7 +39,7 @@ The repository is organized as follows:
 4. Run or modify the code as per your requirement.  
 
 ## 📌 Contribution  
-This is my personal learning repository, but if you have suggestions, feel free to create an **issue** or a **pull request**.  
+This is my personal learning repository, but if you have suggestions, feel free to create an **issue**, a **branch** or a **pull request**.  
 
 ## 🔗 Connect with Me  
 - 📧 Email: [Vishwajeet Jha @Vish](mailto:victorygamerz4@gmail.com)

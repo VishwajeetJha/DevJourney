@@ -3,7 +3,7 @@
 ## 📘 Practicals  
 - 🤖 Artificial Intelligence (AI)
 - 📚 Machine Learning (ML)
-- ## 📱 Mobile Application Development (MAD)  -- lost the files
+- 📱 Mobile Application Development (MAD)  -- lost the files
 
 ## 🚀 Projects
 - 🤖 AI :  Resume Parser

@@ -1,4 +1,4 @@
-## 🔐 Basics of Information Practicals
+# 🔐 Basics of Information Practicals
 
 - `pr2.c` : Implement Caesar Cipher for basic encryption and decryption  
 - `pr3.c` : Implement Hill Cipher for basic encryption techniques  

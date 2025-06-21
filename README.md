@@ -25,7 +25,7 @@ The repository is organized as follows:
  ┗ 📜 README.md  
 
 ## 🚀 Technologies Covered  
-- **Programming Languages**: Python, Java, C, etc.  
+- **Programming Languages**: Python, Java, C, C++, PHP, etc.
 - **Databases**: Oracle SQL, MongoDB, MySQL, Cassandra, Neo4 
 - **Concepts**: Data Structures, Algorithms, Networking, Web Development, etc.  
 

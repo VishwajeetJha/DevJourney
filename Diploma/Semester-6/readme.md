@@ -1,8 +1,8 @@
 # 📂 Folder Contents  
 
 ## 📘 Practicals 
-- 🌐 Internet of Things  
-- 🔐 Basics of Information Security  
+- 🌐 Internet of Things  (IOT)
+- 🔐 Basics of Information Security  (BIS)
 
 ## 🚀 Projects
 -  🚌 **IOT** : Bluetooth Controlled Car

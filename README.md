@@ -3,7 +3,7 @@
 
 Welcome to **DevJourney**, my personal coding repository!
 
-Here, I store all my codes starting from **Semester 3** of my **Diploma in Computer Engineering**.
+Here, I'll store all my codes starting from **Semester 3** of my **Diploma in Computer Engineering**.
 This repository contains assignments, projects, and practicals across various subjects.
 
 I have uploaded almost everything here, if you wanna query me for something then find me on my socials :)
@@ -21,13 +21,14 @@ The repository is organized as follows:
  ┃ ┣ 📂 [Semester-4](Diploma/Semester-4)    
  ┃ ┣ 📂 [Semester-5](Diploma/Semester-5)    
  ┃ ┗ 📂 [Semester-6](Diploma/Semester-6)    
- ┣ 📂 Degree - BTech (Coming soon!)  
+ ┣ 📂 Degree - BE
+ ┃ ┣ 📂 [Semester-3](Degree/Semester-3)  
  ┗ 📜 README.md  
 
 ## 🚀 Technologies Covered  
 - **Programming Languages**: Python, Java, C, C++, PHP, etc.
 - **Databases**: Oracle SQL, MongoDB, MySQL, Cassandra, Neo4 
-- **Concepts**: Data Structures, Algorithms, Networking, Web Development, etc.  
+- **Concepts**: Artificial Intelligence, Machine Learning, Data Structures, Algorithms, Networking, Web Development, etc.  
 
 ## 📝 How to Use  
 1. Clone this repository:

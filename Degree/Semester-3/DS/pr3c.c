@@ -1,0 +1,1 @@
+//Practical 3(C): Develop a program to generate the result based on marks of 6 subjects. (if else if ladder).

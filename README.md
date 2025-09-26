@@ -21,8 +21,8 @@ The repository is organized as follows:
  ┃ ┣ 📂 [Semester-4](Diploma/Semester-4)    
  ┃ ┣ 📂 [Semester-5](Diploma/Semester-5)    
  ┃ ┗ 📂 [Semester-6](Diploma/Semester-6)    
- ┣ 📂 Degree - BE
- ┃ ┣ 📂 [Semester-3](Degree/Semester-3)  
+ ┣ 📂 [Degree - BE](Degree/)  
+ ┃ ┗ 📂 [Semester-3](Degree/Semester-3)  
  ┗ 📜 README.md  
 
 ## 🚀 Technologies Covered  

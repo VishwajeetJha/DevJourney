@@ -31,3 +31,12 @@ void main(){
     }
     printf("\n");
 }
+
+/*OUTPUT:-
+Enter 3 numbers: 
+a b c
+2 3 1
+
+Numbers in increasing order: 
+1 2 3
+*/

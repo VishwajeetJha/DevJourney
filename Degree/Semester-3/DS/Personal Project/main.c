@@ -5,7 +5,7 @@
 //gcc main.c -lraylib -lm -ldl -lpthread -o hanoi
 
 #define NUM_PEGS 3
-#define NUM_DISCS 5
+#define NUM_DISCS 3
 
 typedef struct {
     int disc;
@@ -37,6 +37,7 @@ int moveCount = 0;
 int currentMove = 0;
 char lastMove[64] = "";
 int step = 1;
+int paused = 0;
 
 // precompute moves
 void SolveHanoi(int n, int from, int to, int aux) {
@@ -129,21 +130,33 @@ int main() {
     while (!WindowShouldClose()) {
         float dt = GetFrameTime(); // seconds since last frame -- istg please don't mess with this, spent an hour trying to figure out
                                                                     //how to sync between the pegs' movement
-        if (!anim.active && currentMove < moveCount) {
-            StartMove(moves[currentMove]);
-        }
+       // Toggle pause on P key press
+       if (IsKeyPressed(KEY_P)) {
+           paused = !paused;
+       }
 
-        UpdateAnim(dt);
+       if (!paused) {
+           if (!anim.active && currentMove < moveCount) {
+               StartMove(moves[currentMove]);
+           }
+           UpdateAnim(dt);
+       }
 
-        BeginDrawing();
-        ClearBackground(RAYWHITE);
+       BeginDrawing();
+       ClearBackground(RAYWHITE);
 
-        DrawRectangle(50, 20, 700, 40, LIGHTGRAY);
-        DrawText(lastMove, 60, 30, 20, BLACK);
+       // Draw top text box
+       DrawRectangle(50, 20, 700, 40, LIGHTGRAY);
+       DrawText(lastMove, 60, 30, 20, BLACK);
 
-        DrawPegsWithAnim();
+       DrawPegsWithAnim();
 
-        EndDrawing();
+       // Show pause text if paused
+       if (paused) {
+           DrawText("PAUSED", 350, 550, 30, RED);
+       }
+
+       EndDrawing();
     }
 
 

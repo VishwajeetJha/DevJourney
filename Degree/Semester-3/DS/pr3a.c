@@ -66,3 +66,65 @@ void main(){
         }
     }
 }
+
+/*OUTPUT:-
+
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 1
+Enter the element to be pushed: 23
+Pushed element: 23
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 1
+Enter the element to be pushed: 34
+Pushed element: 34
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 1
+Enter the element to be pushed: 99
+Pushed element: 99
+
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 3
+Stack elements are:
+99 34 23 
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 2
+Popping element: 99
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 2
+Popping element: 34
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 3
+Stack elements are:
+23 
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice: 4
+Exiting...
+
+*/

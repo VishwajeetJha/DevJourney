@@ -22,12 +22,13 @@ The repository is organized as follows:
  ┃ ┣ 📂 [Semester-5](Diploma/Semester-5)    
  ┃ ┗ 📂 [Semester-6](Diploma/Semester-6)    
  ┣ 📂 [Degree - BE](Degree/)  
- ┃ ┗ 📂 [Semester-3](Degree/Semester-3)  
+ ┃ ┣ 📂 [Semester-3](Degree/Semester-3)  
+ ┃ ┗ 📂 [Semester-4](Degree/Semester-4)  
  ┗ 📜 README.md  
 
 ## 🚀 Technologies Covered  
-- **Programming Languages**: Python, Java, C, C++, PHP, etc.
-- **Databases**: Oracle SQL, MongoDB, MySQL, Cassandra, Neo4 
+- **Programming Languages**: Python, Java, C, C++, PHP, Shell, etc.
+- **Databases**: Oracle SQL, MongoDB, MySQL, Cassandra, Neo4j 
 - **Concepts**: Artificial Intelligence, Machine Learning, Data Structures, Algorithms, Networking, Web Development, etc.  
 
 ## 📝 How to Use  

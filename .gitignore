@@ -6,6 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
+# Exectuables
+*.exe
+*.out
+hanoi
+hanoi_static
+
 # Distribution / packaging
 .Python
 build/
